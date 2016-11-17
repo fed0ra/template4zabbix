@@ -11,7 +11,7 @@ jetty_status_fun(){
 	ADDR=10.25.106.196
 	PRO_PORT=$1
 	PRO_NAME=$2
-	comm=`curl -m 5 -s $ADDR:$1/$2/game/test`
+	comm=`curl -m 5 -s $ADDR:$1/$2game/test`
 	if [ "$comm" = "success" ];then
 		JETTY_STAT_VALUE=1
 		echo $JETTY_STAT_VALUE
