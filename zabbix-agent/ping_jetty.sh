@@ -5,7 +5,7 @@
 #Function:      This script is monitor linux service status
 #Version:       1.0
 
-jetty_status_fun(){
+jetty_ping_fun(){
 
 	JETTY_STAT_VALUE=''
 	ADDR=10.25.106.196
@@ -24,11 +24,11 @@ jetty_status_fun(){
 
 main(){
 	case $1 in
-		jetty_status)
-			jetty_status_fun $2 $3;
+		jetty_ping)
+			jetty_ping_fun $2 $3;
 			;;
 		*)
-			echo $"Usage : $0 {jetty_status key}"
+			echo $"Usage : $0 {jetty_ping key}"
 	esac
 }
 
