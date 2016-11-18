@@ -8,7 +8,7 @@
 jetty_ping_fun(){
 
 	JETTY_STAT_VALUE=''
-	ADDR=10.25.106.196
+	ADDR=127.0.0.1
 	PRO_PORT=$1
 	PRO_NAME=$2
 	comm=`curl -m 5 -s $ADDR:$1/$2/game/test`
