@@ -1,7 +1,7 @@
 #!/bin/bash
 #Date:          2016-06-06
-#Author:        Created by mean
-#Mail:          990@qq.com
+#Author:        Created by Boomer
+#Mail:          990370200@qq.com
 #Function:      This script is monitor linux service status
 #Version:       1.0
 

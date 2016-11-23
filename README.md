@@ -1,5 +1,4 @@
 # Some templates 4 Zabbix
-
 ### Can monitor what
 
 - Monitor nginx performance

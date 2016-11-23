@@ -1,8 +1,8 @@
 #!/bin/bash
 #Date:          2016-06-06
-#Author:        Created by mean
-#Mail:          990@qq.com
-#Function:      This script is monitor linux service status
+#Author:        Created by Boomer
+#Mail:          990370200@qq.com
+#Function:      This script is monitor jetty service status
 #Version:       1.0
 
 jetty_ping_fun(){
