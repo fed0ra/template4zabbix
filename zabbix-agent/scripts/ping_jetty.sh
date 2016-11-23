@@ -1,8 +1,8 @@
 #!/bin/bash
 #Date:          2016-06-06
-#Author:        Created by Boomer
-#Mail:          990370200@qq.com
-#Function:      This script is monitor jetty service status
+#Author:        Created by mean
+#Mail:          990@qq.com
+#Function:      This script is monitor linux service status
 #Version:       1.0
 
 jetty_ping_fun(){
@@ -11,7 +11,7 @@ jetty_ping_fun(){
 	ADDR=127.0.0.1
 	PRO_PORT=$1
 	PRO_NAME=$2
-	comm=`/usr/bin/curl -m 5 -s $ADDR:$1/$2/game/test`
+	comm=`/usr/bin/curl -m 5 -s $ADDR:$1/$2/heartbeat`
 	if [ "$comm" = "success" ];then
 		JETTY_STAT_VALUE=1
 		echo $JETTY_STAT_VALUE
